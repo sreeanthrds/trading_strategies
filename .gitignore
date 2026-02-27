@@ -1,0 +1,60 @@
+# Secrets & Credentials
+*.pem
+*.key
+backtesting_project/AWS_Details/
+.env
+
+# Large files
+*.zip
+*.dmg
+*.jpg
+*.png
+lambda_package.zip
+lambda_build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Large data files
+*.csv
+!results/*.csv
+
+# Large directories (not core to strategy)
+Trading_engine*/
+trading_engine*/
+tradelayout/
+live_trading_engine*/
+backtesting_project/
+backtesting_project_clean/
+layout-phase-1-*/
+lovable-code-transplant/
+test-production-build/
+advanced-expression-builder-app/
+sse-demo-react/
+Exploring/
+processed_data/
+expiry_analyzer/
+expiry_analyzer.egg-info/
+src/
+tradelayout-engine/
+Project\ Docs/
+Documentation/
+logs/
+
+# Notebooks (large)
+Project_core_functions*.ipynb
+function_to_json.ipynb
+back-testing.ipynb
+unitrader-api-functions.ipynb
